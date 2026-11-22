@@ -1,17 +1,6 @@
 # ar-ntd-drug-discovery
-Ensemble-aware, volatility-filtered 5-phase drug discovery pipeline targeting the Androgen Receptor N-Terminal Domain (AR-NTD)
 
-Step 3: Add README.md on GitHub
 
-1. Open https://github.com.
-2. Click Add file > Create new file.
-3. Name the file README.md and paste this complete documentation:
-markdown
-# AR-NTD Targeted Drug Discovery Pipeline (v4.1)
-
-[![Open In Colab](https://google.com)](https://google.com)
-![Python](https://shields.io)
-![RDKit](https://shields.io)
 
 An ensemble-aware, volatility-filtered computational pipeline designed for **Androgen Receptor N-Terminal Domain (AR-NTD)** targeted drug discovery. 
 
@@ -48,35 +37,6 @@ Running the notebook generates three interactive visualizations and seven disk a
 
 ---
 
-## 🚀 Quickstart
 
-### Run in Google Colab (Recommended)
-Click the **Open in Colab** badge at the top of this page to run the notebook directly in your browser.
 
-### Run Locally
-```bash
-git clone https://github.com
-cd ar-ntd-drug-discovery
-pip install -r requirements.txt
-jupyter notebook ar_ntd_pipeline.ipynb
-```
-Use code with caution.
-
-Step 4: Add requirements.txt and .gitignore
-
-Using Add file > Create new file on GitHub, add these two final files:
-requirements.txt
-text
-numpy>=1.24.0
-matplotlib>=3.7.0
-rdkit>=2023.9.1
-Use code with caution.
-.gitignore
-text
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-.DS_Store
-Use code with caution.
-If you'd also like to upload sample output files (tau1_disorder_profile.csv, virtual_screening_results.csv, and .xyz files) into an ar_ntd_outputs/ folder on GitHub so visitors can inspect your results without running the code, let me know and I can show you how to export them from Colab in one step.
 
